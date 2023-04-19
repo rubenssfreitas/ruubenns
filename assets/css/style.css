@@ -21,11 +21,15 @@ body::before {
 }
 
 @media (max-width: 1024) {
- background: #040404 url("../img/bgtablet.jpg") top right no-repeat;
+  body::before {  
+    background: #040404 url("../img/bgtablet.jpg") top right no-repeat;
+  }
 }
 
 @media (max-width: 768) {
- background: #040404 url("../img/bgmobile.jpg") top right no-repeat;
+  body::before {
+    background: #040404 url("../img/bgmobile.jpg") top right no-repeat;
+  }
 }
 
 @media (min-width: 1024px) {
