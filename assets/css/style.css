@@ -20,11 +20,11 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 1024) {
+@media (max-width: 1024) {
  background: #040404 url("../img/bgtablet.jpg") top right no-repeat;
 }
 
-@media (min-width: 768) {
+@media (max-width: 768) {
  background: #040404 url("../img/bgmobile.jpg") top right no-repeat;
 }
 
